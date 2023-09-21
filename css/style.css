@@ -118,11 +118,12 @@ ul,
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding: 24px 0;
 }
 
 .navigation-link {
+  display: block;
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .navigation-link:hover,
@@ -217,13 +218,23 @@ ul,
   color: var(--brand-color);
 }
 
-.about-title {
+.made-list {
+  display: flex;
+  gap: 24px;
+}
+
+.made-item {
+  width: calc((100% - 3 * 16px) / 3);
+}
+
+.made-title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .team-title {
@@ -284,6 +295,7 @@ ul,
 
 .footer {
   background: #2e2f42;
+  padding: 100px 0;
 }
 
 .footer-description {
@@ -291,6 +303,11 @@ ul,
   line-height: 24px;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+}
+
+.footer-inline-block {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 /* */
