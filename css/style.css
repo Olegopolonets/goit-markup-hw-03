@@ -298,10 +298,13 @@ ul,
 
 /* portfolio */
 .portfolio-content {
+  padding: 96px 0 120px 0;
 }
 
 .category-list {
   display: flex;
+  justify-content: center;
+  gap: 24px;
 }
 
 .category-button {
