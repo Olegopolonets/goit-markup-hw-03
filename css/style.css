@@ -266,4 +266,5 @@ ul,
   min-width: 169px;
   height: 56px;
   border-radius: 4px;
+  cursor: pointer;
 }
