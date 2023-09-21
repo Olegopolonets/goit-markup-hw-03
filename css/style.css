@@ -208,6 +208,7 @@ ul,
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .characteristic,
@@ -216,6 +217,7 @@ ul,
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--brand-color);
+  text-align: center;
 }
 
 .made-list {
@@ -276,7 +278,31 @@ ul,
   padding: 32px 0;
 }
 
+.footer {
+  background: #2e2f42;
+  padding: 100px 0;
+}
+
+.footer-description {
+  max-width: 264px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+}
+
+.footer-inline-block {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
 /* portfolio */
+.portfolio-content {
+}
+
+.category-list {
+  display: flex;
+}
 
 .category-button {
   background-color: #f4f4fd;
@@ -308,23 +334,6 @@ ul,
   line-height: 24px;
   letter-spacing: 0.02em;
   color: var(--brand-color);
-}
-
-.footer {
-  background: #2e2f42;
-  padding: 100px 0;
-}
-
-.footer-description {
-  font-size: 16px;
-  line-height: 24px;
-  color: #f4f4fd;
-  letter-spacing: 0.02em;
-}
-
-.footer-inline-block {
-  display: inline-block;
-  margin-bottom: 16px;
 }
 
 /* */
