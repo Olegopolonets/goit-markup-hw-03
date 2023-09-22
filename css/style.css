@@ -1,6 +1,16 @@
 :root {
-  --brand-color: #434455;
-  --secondary-color: #4d5ae5;
+  --primary-text-color: #434455;
+  --accent-text-color: #4d5ae5;
+  --title-text-color: #2e2f42;
+  --hover-text-color: #404bbf;
+  --cloud-text-color: #f4f4fd;
+  --white-text-color: #ffffff;
+  --primary-bg-color: #e5e5e5;
+  --secondary-bg-color: #2e2f42;
+  --section-bg-color: #ffffff;
+  --cloud-bg-color: #f4f4fd;
+  --accent-bg-color: #4d5ae5;
+  --hover-bg-color: #404bbf;
 }
 
 /* reset style */
@@ -47,7 +57,7 @@ body {
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
-  color: var(--brand-color);
+  color: var(--primary-text-color);
   background-color: #ffffff;
 }
 
@@ -59,7 +69,7 @@ body {
 }
 
 .section {
-  padding: 120px 0;
+  margin: 120px 0;
 }
 
 ul,
@@ -102,14 +112,14 @@ ul,
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--secondary-color);
+  color: var(--accent-text-color);
 }
 
 .logo-decor-header {
-  color: #2e2f42;
+  color: var(--title-text-color);
 }
 .logo-decor-footer {
-  color: #f4f4fd;
+  color: var(--cloud-text-color);
 }
 
 .navigation-item {
@@ -117,18 +127,18 @@ ul,
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--title-text-color);
 }
 
 .navigation-link {
   display: block;
-  color: #2e2f42;
+  color: var(--title-text-color);
   padding: 24px 0;
 }
 
 .navigation-link:hover,
 .navigation-link:focus {
-  color: #404bbf;
+  color: var(--hover-text-color);
 }
 
 .link {
@@ -140,7 +150,7 @@ ul,
 }
 
 .address-link {
-  color: var(--brand-color);
+  color: var(--primary-text-color);
   text-decoration: none;
   font-size: 16px;
   font-weight: 400;
@@ -150,7 +160,7 @@ ul,
 
 .address-link:hover,
 .address-link:focus {
-  color: #404bbf;
+  color: var(--hover-text-color);
 }
 
 .hero {
@@ -163,20 +173,20 @@ ul,
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--white-text-color);
   margin: 0 auto;
   margin-bottom: 48px;
   max-width: 496px;
 }
 
 .hero-button {
-  background-color: var(--secondary-color);
+  background-color: var(--accent-text-color);
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: var(--white-text-color);
   cursor: pointer;
   margin: 0 auto;
   display: block;
@@ -206,9 +216,8 @@ ul,
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--title-text-color);
   margin-bottom: 8px;
-  text-align: center;
 }
 
 .characteristic,
@@ -216,7 +225,11 @@ ul,
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--brand-color);
+  color: var(--primary-text-color);
+}
+
+.employee-description,
+.employee-title {
   text-align: center;
 }
 
@@ -235,8 +248,12 @@ ul,
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--title-text-color);
   margin-bottom: 72px;
+}
+
+.team {
+  padding: 120px 0;
 }
 
 .team-title {
@@ -246,7 +263,7 @@ ul,
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--title-text-color);
 }
 
 .bg-silver {
@@ -270,7 +287,7 @@ ul,
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--title-text-color);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -287,7 +304,7 @@ ul,
   max-width: 264px;
   font-size: 16px;
   line-height: 24px;
-  color: #f4f4fd;
+  color: var(--cloud-text-color);
   letter-spacing: 0.02em;
 }
 
@@ -310,7 +327,7 @@ ul,
 
 .category-button {
   background-color: #f4f4fd;
-  color: var(--secondary-color);
+  color: var(--accent-text-color);
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -325,7 +342,7 @@ ul,
 .category-button:hover,
 .category-button:focus {
   background: #404bbf;
-  color: #ffffff;
+  color: var(--white-text-color);
   border: 1px solid transparent;
 }
 
@@ -351,7 +368,7 @@ ul,
   line-height: 24px;
   font-weight: 500;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--title-text-color);
   margin-bottom: 8px;
 }
 
@@ -359,7 +376,12 @@ ul,
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: var(--brand-color);
+  color: var(--primary-text-color);
 }
 
-/* */
+.mb-0 {
+  margin-bottom: 0;
+}
+
+/* 
+} */
